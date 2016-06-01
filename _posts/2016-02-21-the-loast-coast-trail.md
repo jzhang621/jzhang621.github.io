@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: map
 title:  "The Lost Coast: A Trip Journal"
 lat: 40.287906612507406
 lng: -123.35998535156249

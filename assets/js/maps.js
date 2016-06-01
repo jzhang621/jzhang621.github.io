@@ -1,6 +1,9 @@
+// TODO (add alter based on window size)
+
 L.mapbox.accessToken = 'pk.eyJ1Ijoiam9leWtsZWUiLCJhIjoiMlRDV2lCSSJ9.ZmGAJU54Pa-z8KvwoVXVBw';
 
 var map = L.mapbox.map('map-canvas', 'mapbox.streets', {zoomControl: false})
+
 
 var lostCoastTrailMarker = L.mapbox.featureLayer({
     type: 'Feature',
@@ -110,7 +113,7 @@ function getNumPointsPassed() {
   for (var i=0; i<textAreaImages.length; i++) {
     var rect = textAreaImages[i].getBoundingClientRect();
 
-    // If the bottom of the picture has been reached the bottom of the screen
+    // If the bottom of the picture has reached the bottom of the screen
     if ((rect.bottom - textAreaHeight ) < (headerHeight + 15)) {
       counter++;
     }
@@ -150,9 +153,10 @@ function initialInteract(map, points) {
   var headerHeight = $('.navbar-header')[0].offsetHeight;
 
   // set the view to the lost coast trail view, add the markers
-  var dayOneSection = $('#main-text #saturday-day-1')[0].getBoundingClientRect()
+  var dayOneSection = $('#saturday-day-1')[0].getBoundingClientRect()
   if (dayOneSection.bottom < (textAreaHeight + headerHeight + 15)) {
     map.setView([40.17283991040105, -124.21623229980467], 11);
+
     map.removeLayer(lostCoastTrailMarker);
 
     for (var i=0; i<allTrailMarkers.length; i++) {
@@ -172,7 +176,7 @@ function drawPointsInteractive(map, currPathIndex, points) {
   */
 
   // if the interactive section of the post is no longer visible.
-  var dayOneSection = $('#main-text #saturday-day-1')[0].getBoundingClientRect()
+  var dayOneSection = $('#saturday-day-1')[0].getBoundingClientRect()
   if (dayOneSection.bottom > window.innerHeight) {
     resetState();
     return

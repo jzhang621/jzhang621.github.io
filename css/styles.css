@@ -26,7 +26,7 @@ body{
 #main-text{
     width: 75%;
     margin: auto;
-    font-family: 'Lato', sans-serif;
+    font-family: "PT Serif", Georgia, Times, serif;
 }
 
 .post-title {
@@ -36,10 +36,6 @@ body{
 
 #cover-image {
     padding: 10px 0px;
-}
-
-#main-text {
-    font-family: "PT Serif", Georgia, Times, serif;
 }
 
 #main-text p{
@@ -84,7 +80,6 @@ section:last-child {
 }
 
 #map-canvas {
-	width:33.3333%;
     height:calc(100% - 0);
     position:absolute;
     right:10px;

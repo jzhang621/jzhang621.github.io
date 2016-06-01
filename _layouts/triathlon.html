@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+
+  <body>
+    {% include header.html %}
+    <div class="progress-header">
+      <div id="progress-section">
+        <img id="swim-icon" src="{{ '/assets/img/hits/swim.svg' | prepend: site.baseurl }}">
+        <i id="bicycle-icon" class="fa fa-bicycle fa-3x"></i>
+        <img id="run-icon" src="{{ '/assets/img/hits/run.svg' | prepend: site.baseurl }}">
+        <i id="finish" class="fa fa-flag fa-3x" aria-hidden="true"></i>
+      </div>
+    </div>
+
+    <div class="page-content">
+      <article id="main-text">
+        <h1 class='post-title'>2016 HITS Triathlon: Napa Valley</h1>
+        {{ content }}
+      </article>
+    </div>
+  </body>
+
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="{{ "/css/triathlon.css" | prepend: site.baseurl }}">
+  <script type="text/javascript" src="/assets/js/d3.js"></script>
+  <script type="text/javascript" src="/assets/js/triathlon.js"></script>
+  <script>
+    $(document).ready(function() {
+
+      var BUFFER = .85;
+
+      var swimIcon = $('#swim-icon');
+      var bikeIcon = $('#bicycle-icon');
+      var runIcon = $('#run-icon');
+
+      
+      $(window).scroll(function(event) {
+
+        var swimSectionStart = $('#swim').offset().top;
+        var swimSectionEnd = $('#t1').offset().top;
+        var swimSectionTotalHeight = swimSectionEnd - swimSectionStart;
+
+        var bikeSectionStart = $('#bike').offset().top;
+        var bikeSectionEnd = $('#t2').offset().top;
+        var bikeSectionTotalHeight = bikeSectionEnd - bikeSectionStart;
+
+        var runSectionStart = $('#run').offset().top;
+        var runSectionEnd = $('#post-race').offset().top;
+        var runSectionTotalHeight = runSectionEnd - runSectionStart;
+
+        var totalWidth = $('.page-content').width();
+
+        var currPos = $(window).scrollTop() + 130; // 130 is the corrective factor for the header TODO make this a jquery query
+
+        if (currPos > swimSectionStart & currPos < swimSectionEnd) {
+          var percent = ((currPos - swimSectionStart) / (swimSectionTotalHeight)) * BUFFER
+          var swimWidth = totalWidth * 0.2; // 0.2 is the margin-left of the bike icon
+          var newPosition = swimWidth * percent;
+          swimIcon.css('margin-left', newPosition);
+        }
+
+        else if (currPos > bikeSectionStart & currPos < bikeSectionEnd) {
+          var percent = ((currPos - bikeSectionStart) / (bikeSectionTotalHeight)) * BUFFER;
+          var bikeWidth = totalWidth * 0.32; // 0.32 is the margin-left of the swim icon
+          var newPosition = bikeWidth * percent;
+          bikeIcon.css('padding-left', newPosition);
+        }
+
+        else if (currPos > runSectionStart & currPos < runSectionEnd) {
+          var percent = ((currPos - runSectionStart) / (runSectionTotalHeight)) * .735;
+          var runWidth = totalWidth * 0.355; // 0.35 is the margin-left of the finish line
+          var newPosition = runWidth * percent + (totalWidth * .52);
+          runIcon.css('margin-left', newPosition);
+        }
+
+      });
+    });
+  </script>
+</html>
