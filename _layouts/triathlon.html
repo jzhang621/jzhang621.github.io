@@ -71,7 +71,7 @@
 
         else if (currPos > runSectionStart & currPos < runSectionEnd) {
           var percent = ((currPos - runSectionStart) / (runSectionTotalHeight)) * .735;
-          var runWidth = totalWidth * 0.355; // 0.35 is the margin-left of the finish line
+          var runWidth = totalWidth * 0.32; // 0.32 is the margin-left of the finish line
           var newPosition = runWidth * percent + (totalWidth * .52);
           runIcon.css('margin-left', newPosition);
         }

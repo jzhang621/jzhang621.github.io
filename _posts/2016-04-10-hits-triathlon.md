@@ -96,6 +96,8 @@ To be honest, it feels a bit lonely. An older man passes me. His blue shirt flap
 <span class="time">10:09 a.m. </span><br>
 24.8 miles later and some 100 minutes later, I’m back to the race site.
 
+<img class="hor-image" src="{{ '/assets/img/hits/bike.jpg' | prepend: site.baseurl }}">
+
 <h2 id="t2">Transition 2: Bike to Run</h2>
 <span class="time">10:11 a.m. </span><br>
 The end of the bike ride could not have come at a better time; I’m hungry and in need of a recharge. I catch my breath, scarf down two energy blocks and half an energy bar, and head out.
@@ -125,8 +127,11 @@ I’m running on a bridge, the only flat portion of the run. The race site is ju
 <span class="time">11:09 a.m. </span><br>
 The words of Mr. Harvey, my high school physics teacher, implore me to “sprint to the finish!”
 
+<img class="hor-image" src="{{ '/assets/img/hits/finish.jpg' | prepend: site.baseurl }}">
+
 <span class="time">11:10 a.m. </span><br>
 Finished. All smiles.
+
 
 <h2 id="post-race">Post-Race</h2>
 <span class="time">11:11 a.m. </span><br>
