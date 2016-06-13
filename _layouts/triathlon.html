@@ -56,7 +56,7 @@
         var currPos = $(window).scrollTop() + 130; // 130 is the corrective factor for the header TODO make this a jquery query
 
         if (currPos > swimSectionStart & currPos < swimSectionEnd) {
-          var percent = ((currPos - swimSectionStart) / (swimSectionTotalHeight)) * BUFFER
+          var percent = ((currPos - swimSectionStart) / (swimSectionTotalHeight)) * .80
           var swimWidth = totalWidth * 0.2; // 0.2 is the margin-left of the bike icon
           var newPosition = swimWidth * percent;
           swimIcon.css('margin-left', newPosition);

@@ -65,3 +65,11 @@
   display: block;
   margin: 0 auto; 
 }
+
+.time {
+  font-weight: 600;
+}
+
+#main-text p {
+  margin-top: 20px;
+}
