@@ -10,7 +10,7 @@ title:  "HITS Triathlon"
 <span class="time">6:45 a.m. </span><br>
 It’s the morning of my first triathlon, and light has started to shine onto the verdant hills surrounding Lake Berryessa. I’m at the trunk of Christine’s car, filling my water bottle and tweaking my bike. 
 
-Where are my goggles? Under the bike. Where is my helmet? Not on my head. It seems the only thing I can locate are my nerves. They’re right where I left them — on the brink of bursting. 
+Where are my goggles? Under the bike. Where is my helmet? Not on my head. The only thing I can find are my nerves. They’re right where I left them — on the brink of bursting. 
 
 <span class="time">6:53 a.m. </span><br>
 At the race site, I see a cluster of bright orange swim caps by the banks of the lake. They belong to the Sprint athletes, who will be starting soon. The water before them looks cold and uninviting, the sky above us all grey and unfriendly.
