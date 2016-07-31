@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+  <link rel="stylesheet" href="{{ "/css/full_map.css" | prepend: site.baseurl }}">
+  <body>
+
+    {% include header.html %}
+
+    <div id="map"></div>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4" id="text">
+
+        </div> 
+      </div>  
+    </div>
+    
+    {{content}}
+
+  </body>
+
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-1.0.0-b1/leaflet.css" />
+  <script src="http://cdn.leafletjs.com/leaflet-1.0.0-b1/leaflet.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+  <script>
+    $(document).ready(function(){ 
+
+      $('#text').html($('#intro').html());
+
+      var map = L.map('map', {'zoomControl': false});
+
+      L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+        maxZoom: 18,
+        id: 'mapbox.outdoors',
+        accessToken: 'pk.eyJ1Ijoiaml6aGFuZzYyMSIsImEiOiJjaWp1ejRzbXMwMGQ3dzNtM3FpM3psZXYxIn0.4QxpNDh3uxXZ6mKqJVfXxA'
+      }).addTo(map);
+
+      var coordinates = [37.76837093455198, -122.5212091742637];
+      map.setView(coordinates, 12.45);
+
+      map.touchZoom.disable();
+      map.doubleClickZoom.disable();
+      map.scrollWheelZoom.disable();
+      map.keyboard.disable();
+
+      new L.Control.Zoom({ position: 'bottomleft' }).addTo(map);
+
+      var RADIUS = 6;
+      var COLOR = 'green';
+      var OPACITY = 0.75;
+
+      var glenCanyon = L.circleMarker([37.737772, -122.432104], {fillOpacity: OPACITY, color: COLOR, radius: RADIUS});
+      glenCanyon.addTo(map);
+
+      glenCanyon.on('click', function() {
+        $('#text').html($('#glenCanyon').html());
+      });
+
+      var kayaking = L.circleMarker([37.771226, -122.385715], {fillOpacity: OPACITY, color: COLOR, radius: RADIUS});
+      kayaking.addTo(map);
+
+      kayaking.on('click', function() {
+        $('#text').html($('#kayaking').html());
+      });
+
+      var loversLn = L.circleMarker([37.795405, -122.451685], {fillOpacity: OPACITY, color: COLOR, radius: RADIUS});
+      loversLn.addTo(map);
+
+      loversLn.on('click', function() {
+        $('#text').html($('#loversLn').html());
+      });
+
+      var goldenGateTapRoom = L.circleMarker([37.788996, -122.408853], {fillOpacity: OPACITY, color: COLOR, radius: RADIUS});
+      goldenGateTapRoom.addTo(map);
+
+      goldenGateTapRoom.on('click', function() {
+        $('#text').html($('#goldenGateTapRoom').html());
+      });
+
+      var alcatraz = L.circleMarker([37.826977, -122.422956], {fillOpacity: OPACITY, color: COLOR, radius: RADIUS});
+      alcatraz.addTo(map);
+
+      alcatraz.on('click', function() {
+        $('#text').html($('#alcatraz').html());
+      });
+
+      var treasureIsland = L.circleMarker([37.819267, -122.371302], {fillOpacity: OPACITY, color: COLOR, radius: RADIUS});
+      treasureIsland.addTo(map);
+
+      treasureIsland.on('click', function() {
+        $('#text').html($('#treasureIsland').html());
+      });
+
+      var mtSutro = L.circleMarker([37.759220, -122.45723], {fillOpacity: OPACITY, color: COLOR, radius: RADIUS});
+      mtSutro.addTo(map);
+
+      mtSutro.on('click', function() {
+        $('#text').html($('#mtSutro').html());
+      });
+
+      var coitTower = L.circleMarker([37.802395, -122.405822], {fillOpacity: OPACITY, color: COLOR, radius: RADIUS});
+      coitTower.addTo(map);
+
+      coitTower.on('click', function() {
+        $('#text').html($('#coitTower').html());
+      });
+
+      var moragaSteps = L.circleMarker([37.756247, -122.473598], {fillOpacity: OPACITY, color: COLOR, radius: RADIUS});
+      moragaSteps.addTo(map);
+
+      moragaSteps.on('click', function() {
+        $('#text').html($('#moragaSteps').html());
+      });
+
+
+    });
+
+    // 
+
+  </script>
+  

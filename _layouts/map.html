@@ -1,19 +1,37 @@
----
-layout: interactive
----
+<!DOCTYPE html>
+<html>
 
-<div class="container-fluid" id="main">
-  <div class="row">
-    <div class="col-xs-8" id="left">
-      <article id='main-text'>
-        <h1 class='post-title'>{{ page.title }}</h1>
-        {{ content }}
-      </article> 
-    </div>
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+    
+    <div class="container-fluid" id="main">
+      <div class="row">
+        <div class="col-xs-8" id="left">
+          <article id='main-text'>
+            <h1 class='post-title'>{{ page.title }}</h1>
+              {{ content }}
+          </article> 
+        </div>
    
-    <div class="col-xs-4" id="map-canvas"><!--map-canvas will be postioned here--></div>
+        <div class="col-xs-4" id="map-canvas"><!--map-canvas will be postioned here--></div>
 
-  </div>
-</div>
+      </div>
+    </div>
 
+  </body>
 
+  <script src='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.js'></script>
+  <link href='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.css' rel='stylesheet' />
+
+  <script type="text/javascript" src="/assets/js/maps.js"></script>
+  <script>
+    $(document).ready(function(){ 
+      drawMap({{ page.lat }} , {{ page.lng }}, {{ page.zoom }})
+    });
+
+  </script>
+
+</html>
