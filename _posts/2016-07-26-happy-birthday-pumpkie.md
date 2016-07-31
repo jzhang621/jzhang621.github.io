@@ -21,7 +21,7 @@ title:  "Christine and Jimmy Take on the World"
 
 <p>As the rest of the country watched the Super Bowl, we explored Glen Canyon and nearby Mt. Davidson. At Glen Canyon, we weaved through colorful trees and jagged rocks before an abandoned basketball court captured my imagination.</p>
 
-<p>From the top of Mt. Davidson, we marveled at the metropolis below. We played around with a dead tree trunk, with its branches radiating like the petals of a flower.</p>
+<p>From the top of Mt. Davidson, we marveled at the metropolis below. We played around with a dead tree trunk, with branches radiating like the petals of a flower.</p>
 
 <p>We meandered down residential roads back to the BART. To me, any sign of commotion had to be a Super Bowl Party  - and I made sure you knew by commenting out loud. "Oh, these guys are <i>definitely</i> watching."</p>
 
@@ -50,9 +50,23 @@ Thanks to your Groupon <strike>addiction</strike> foresight, we took to our seco
 
 <p>Our first time exploring the Presidio together. We walked along a twisting log that spiralled its way through a grove of eucalyptus trees. We made our way to El Polin Spring, dried out yet alive with remnants of the past.</p>  
 
-<p>We walked by the magnficient mansions of the Presidio, stopping at the Lyon Street Steps as night fell upon the bay - a pleasant suprise. Diligient runners huffed and puffed up the steps, and a few tryhards carried weights as they ran. We opted for an Uber home.</p>
+<p>We walked by magnficient Presido mansions, stopping at the Lyon Street Steps as night fell upon the bay - a pleasant suprise. Diligient runners huffed and puffed up the steps, and a few tryhards carried weights as they ran. We opted for an Uber home.</p>
 
 <p>Thank you for a being part of my favorite Sunday afternoons.</p>
+
+</div>
+
+
+<div id="goldenGate">
+<h2>Golden Gate Park</h2> 
+
+<p>We both worked from home, and around 3 p.m., we went for a bike ride through Golden Gate Park.</p>
+
+<p>We stopped for a bit at the Consevatory of Flowers, where we a man berated a young couple for being too touchy. The man to the other side of us waxed poetic about burritos.</p>
+
+<p>Classic San Francisco.</p>
+
+<img src=" {{'/assets/img/christine/golden_gate_park.jpg'| prepend: site.baseurl }}">
 
 </div>
 
@@ -74,7 +88,12 @@ Thanks to your Groupon <strike>addiction</strike> foresight, we took to our seco
 
 <p>My first visit to Alcatraz, for the night tour.</p>
 
-<p>It was incredible seeing such a self-sustained island that was so close to San Francisco. Standing on Alcatraz is like being a world away.</p>
+<p>I had no idea the island is now a wildlife sanctuary, crammed to the last inch with birds making weird noises.</p> 
+
+<p>We caught the end of the Ai Weiwei exhibit, and hustled to the top of the hill, where we gazed at the amazing night view of the city from the middle of the bay.</p>
+
+<img src=" {{'/assets/img/christine/alcatraz.jpg'| prepend: site.baseurl }}">
+
 </div>
 
 <div id="treasureIsland">
@@ -94,6 +113,15 @@ Thanks to your Groupon <strike>addiction</strike> foresight, we took to our seco
 
 <div id="coitTower">
 <h2>Coit Tower</h2>
+
+<p>I took you on one of my favorite walks from college, to visit Coit Tower at night. But first, we ate rectangular pizza at Golden Boy Pizza. I was quite pleased.</p>
+
+<p>Whenever we found a place to take a quick break and sit, I would play music from my phone. We listened to a lot of Coldplay that night.</p>
+
+<p>I remember making it down the steps and asking if you thought if we could make it all the way home by walking. "I guess we can try", you replied.</p>
+
+<p>We made it about three blocks before I smartened up and called us a ride.</p>
+
 </div>
 
 <div id="moragaSteps">
@@ -104,7 +132,7 @@ Thanks to your Groupon <strike>addiction</strike> foresight, we took to our seco
 
 <p>From the steps, we walked to Grand View Park - one of your favorite spots in the city. I had never seen the city from the West, never seen the ocean and the trees of Golden Gate Park from such heights.</p>
 
-<p>We walked to Irving Street and ate at a Thai restaurant that I had been to be before. It's a small, smug space, and we were sitted next to two girls who talked about their social medial lives a little too loudly. We both laughed when they were moved away.</p>
+<p>We walked to Irving Street and ate at Marnee Thai restaurant - a small, smug space, and we were sitted next to two girls who talked about their social medial lives a little too loudly. We both laughed when they were moved away.</p>
 </div>
 
 </div>

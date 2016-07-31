@@ -75,6 +75,13 @@
         $('#text').html($('#loversLn').html());
       });
 
+      var goldenGate = L.circleMarker([37.769040, -122.483519], {fillOpacity: OPACITY, color: COLOR, radius: RADIUS});
+      goldenGate.addTo(map);
+
+      goldenGate.on('click', function() {
+        $('#text').html($('#goldenGate').html());
+      });
+
       var goldenGateTapRoom = L.circleMarker([37.788996, -122.408853], {fillOpacity: OPACITY, color: COLOR, radius: RADIUS});
       goldenGateTapRoom.addTo(map);
 
@@ -88,14 +95,7 @@
       alcatraz.on('click', function() {
         $('#text').html($('#alcatraz').html());
       });
-
-      var treasureIsland = L.circleMarker([37.819267, -122.371302], {fillOpacity: OPACITY, color: COLOR, radius: RADIUS});
-      treasureIsland.addTo(map);
-
-      treasureIsland.on('click', function() {
-        $('#text').html($('#treasureIsland').html());
-      });
-
+      
       var mtSutro = L.circleMarker([37.759220, -122.45723], {fillOpacity: OPACITY, color: COLOR, radius: RADIUS});
       mtSutro.addTo(map);
 
