@@ -14,17 +14,13 @@ Over President’s Day Weekend, my friends and I backpacked the Lost Coast Trail
 
 
 ## Friday Night: Day 0
-<section id='day-0'>
 <p>We arrived at the parking lot of Black Sands Beach just before midnight. It was pitch black — everything we could surmise about our surroundings came from the rumble of the waves. In 60 hours, we would be emerging from the soft sands below. But at that moment, the 4 of us — me, Rich, Dennis (my roommates from last year) and Shin, Rich’s girlfriend — stretched out as best we could in the car, hoping to steal a few fitful hours of sleep.
 </p>
-</section>
 
 ### Background
-<section id='background-section'>
 <p>
 The Lost Coast exists, preserved in its rugged glory, because Highway 1 surveyors deemed it too rough to build through. The most popular route starts in the north and follows the Pacific Ocean south. It’s usually a one-way journey; backpackers park in the south and shuttle north to Mattole Beach, where the 25 mile trek back to the Black Sands Beach parking lot officially begins.
 </p>
-</section>
 
 ## Saturday: Day 1
 
