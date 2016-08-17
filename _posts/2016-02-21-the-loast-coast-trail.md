@@ -28,13 +28,13 @@ Winter is off-season for the Lost Coast, so our “shuttle” was actually a pic
 
 At the Mattole Beach trailhead, we caught our first glimpse of the unique and unspoiled scenery. For as far as we could see, mountain ridges sloped sharply towards the black sands, the last bridges of land not consumed by powerful waves. I quickly grew accustomed to the sounds of the trail: the reliable crash of waves, the crunch of sand and pebble, the rhythms of the Lost Coast.
 
-<div class="point">
+<div class="point" id="firstSteps">
   <img class="image-full" src="{{ '/assets/img/lct/first_steps.jpg' | prepend: site.baseurl }}">
 </div>
 
 There are creeks everywhere along the trail. Some of them refuse service to those who don’t take off their shoes, requiring us to wade through, ankle deep. Although the cold water was refreshing, we sometimes preferred to keep our shoes on, so Dennis and Rich put the driftwood that abounds the shore to work.
 
-<div class="point">
+<div class="point" id="driftwood">
   <img class="image-full" src="{{ '/assets/img/lct/driftwood.jpg' | prepend: site.baseurl }}">
 </div>
 
@@ -48,7 +48,7 @@ There are a couple of stretches along the Lost Coast Trail that are labeled impa
 
 We timed the waves, letting the water recede before advancing. Rich burst around each corner. When the coast was clear, he signaled back to us. We all got wet.
 
-<div class="point">
+<div class="point" id="tide">
   <img class="image-full" src="{{ '/assets/img/lct/tide.jpg' | prepend: site.baseurl }}">
 </div>
 
@@ -56,7 +56,7 @@ By 4, we had passed the impassable zone. By 5, we found the perfect place to spe
 
 Rich and Shin started the fire, Dennis and I gathered large pieces of wood to block the wind. Afterwards, Shin took more of the pictures that you see all throughout this post.
 
-<div class="point">
+<div class="point" id="camp1">
   <img class="image-full" src="{{ '/assets/img/lct/camp_day1.jpg' | prepend: site.baseurl }}">
 </div>
 
@@ -66,13 +66,13 @@ In the morning, after oatmeal and instant coffee, we stuffed our backpacks and h
 
 From our campsite, the trail continued (thankfully) on dirt. Surrounded by green, the thin brown dirt trail was quite noticeable, making its way up and down the ridges. Following that thin brown line, with towering mountains at my left and the ocean at my right, I have never felt more like a mere footnote in a tome, a tiny speck in an abundant world.
 
-<div class="point">
+<div class="point" id="day2trail">
   <img class="image-full" src="{{ '/assets/img/lct/day2_trail.jpg' | prepend: site.baseurl }}">
 </div>
 
 Once or twice, the trail stopped abruptly, claimed by erosion over the cliff’s edge. A few steps to the side, a fledging trail began. In this way, wind and water are in command — and humans are left to react.
 
-<div class="point">
+<div class="point" id="bigFlat">
 <p>
 We passed through <b>Big Flat</b> about 13 miles from Mattole Beach, around noon. After hours of solitude, it took us a minute to realize that the black dots were surfers, that the small crescents were boats (and one jet ski), and that the orange square was a tent. A couple sauntered by, and I remembered it was Valentine’s Day.
 </p>
@@ -80,7 +80,7 @@ We passed through <b>Big Flat</b> about 13 miles from Mattole Beach, around noon
 
 The dirt trail eventually ended, and we were back on the beach. This time around, we walked over large rocks, some the size of bowling bowls. Large rocks are the toughest terrain to navigate. They are often unstable, and I spent the whole time looking down, scanning for the right rock to step on, hoping not to twist an ankle.
 
-<div class="point">
+<div class="point" id="rocks">
   <img class="image-full" src="{{ '/assets/img/lct/rocks.jpg' | prepend: site.baseurl }}">
 </div>
 
@@ -88,7 +88,7 @@ We stopped for the day at another delightful spot along **Shipman Creek**, which
 
 The sunset that night was sublime.
 
-<div class="point">
+<div class="point" id="sunset">
   <img class="image-full" src="{{ '/assets/img/lct/sunset.jpg' | prepend: site.baseurl }}">
 </div>
 
@@ -104,19 +104,19 @@ The start of Day 3 was no different. We had only a rough idea of how long it wou
 
 Luckily, on that morning, we were rewarded the most beautiful scenery of entire the trip. The weather was gorgeous. For as far as we could see, mist shrouded between the mountain ridges. The ridges cut into the beach at steady intervals, like rows in a cornfield.
 
-<div class="point">
+<div class="point" id="day3">
   <img class="image-full" src="{{ '/assets/img/lct/day3.jpg' | prepend: site.baseurl }}">
 </div>
 
 On the last day, we walked over soft black sand, over pebbles and rocks, large and small. We were used to it by now.
 
-<div class="point">
+<div class="point" id="four">
   <img class="image-full" src="{{ '/assets/img/lct/four.jpg' | prepend: site.baseurl }}">
 </div>
 
 At noon, after about 3 hours, we reached the beach below the Black Sands Beach parking lot. I made sure we lingered there for a bit, soaking it all in.
 
-<div class="point">
+<div class="point" id="end">
   <img class="image-full" src="{{ '/assets/img/lct/last_moment.jpg' | prepend: site.baseurl }}">
 </div>
 
