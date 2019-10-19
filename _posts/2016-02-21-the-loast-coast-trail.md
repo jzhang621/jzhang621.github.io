@@ -14,7 +14,7 @@ Over President’s Day Weekend, my friends and I backpacked the Lost Coast Trail
 
 
 ## Friday Night: Day 0
-<p>We arrived at the parking lot of Black Sands Beach just before midnight. It was pitch black — everything we could surmise about our surroundings came from the rumble of the waves. In 60 hours, we would be emerging from the soft sands below. But at that moment, the 4 of us — me, Rich, Dennis (my roommates from last year) and Shin, Rich’s girlfriend — stretched out as best we could in the car, hoping to steal a few fitful hours of sleep.
+<p>We arrived at the parking lot of Black Sands Beach just before midnight. It was pitch black — the rumble of the waves provided everything we could infer about our surroundings. In 60 hours, we would be emerging from the soft sands below. But at that moment, the 4 of us — me, Rich, Dennis (my roommates from last year) and Shin, Rich’s girlfriend — stretched out as best we could in the car, hoping to steal a few fitful hours of sleep.
 </p>
 
 ### Background

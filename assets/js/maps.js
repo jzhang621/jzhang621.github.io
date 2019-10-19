@@ -54,6 +54,7 @@ var day2CampsiteMarker = L.marker([40.1178560,-124.1446170], {
       })
 });
 
+var LOST_COAST_TRAIL = [40.17283991040105, -124.21623229980467];
 
 var allTrailMarkers = [startMarker, endMarker, lightHouseMarker, day1CampsiteMarker, day2CampsiteMarker];
 
@@ -65,7 +66,7 @@ var point = null;
 var pointsOfInterest = $('#main-text .point')
 
 var BUFFER = 10;
-var DEBOUNCE_INTERVAL = 150;
+var DEBOUNCE_INTERVAL = 10;
 
 var polyLineOptions = {color: '#FF0000', weight: 4, opacity: 0.8, smoothFactor: 3};
 
@@ -172,7 +173,7 @@ function initialInteract() {
   // set the view to the lost coast trail view, add the markers
   var dayOneSection = $('#saturday-day-1')[0].getBoundingClientRect()
   if (dayOneSection.bottom < (textAreaHeight + headerHeight + 15)) {
-    map.setView([40.17283991040105, -124.21623229980467], windowWidthToZoom());
+    map.setView(LOST_COAST_TRAIL, windowWidthToZoom());
     map.removeLayer(lostCoastTrailMarker);
 
     for (var i=0; i<allTrailMarkers.length; i++) {
