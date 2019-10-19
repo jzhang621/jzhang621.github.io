@@ -56,6 +56,8 @@ var day2CampsiteMarker = L.marker([40.1178560,-124.1446170], {
 
 var LOST_COAST_TRAIL = [40.17283991040105, -124.21623229980467];
 
+var INITIAL_VIEW = [40.287906612507406, -123.35998535156249];
+
 var allTrailMarkers = [startMarker, endMarker, lightHouseMarker, day1CampsiteMarker, day2CampsiteMarker];
 
 // state variables
@@ -96,7 +98,6 @@ function windowWidthToZoom() {
 
 }
 
-
 function resetState() {
   /*
   Revert the map back to the initial state
@@ -106,12 +107,15 @@ function resetState() {
     map.removeLayer(allTrailMarkers[i]);
   }
 
+  // remove all paths
+  for (var e in polyLinePoints) { map.removeLayer(polyLinePoints[e]) }
+
   lostCoastTrailMarker.addTo(map);
   lostCoastTrailMarker.eachLayer(function(m) {
     m.openPopup();
   });
 
-  map.setView([40.287906612507406, -123.35998535156249], 7);
+  map.setView(INITIAL_VIEW, 7);
   scrollPanel.onscroll = _.debounce(function(){
                             initialInteract(map);
                          }, DEBOUNCE_INTERVAL);
